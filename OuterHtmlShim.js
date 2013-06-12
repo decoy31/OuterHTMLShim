@@ -91,7 +91,6 @@ function CustomDOMException (code, message) {
     return newException;
 }
 
-
 // Shim for HTMLElement.prototype.outerHTML
 // outerHTML is missing from FF10 and previous versions: https://developer.mozilla.org/en-US/docs/DOM/element.outerHTML
 // Getter code adapted from: http://stackoverflow.com/a/3819589/1265126
